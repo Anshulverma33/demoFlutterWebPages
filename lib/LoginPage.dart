@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:responsive_framework/responsive_framework.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
