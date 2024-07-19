@@ -1,0 +1,98 @@
+[debug] [2024-07-19T10:23:57.004Z] ----------------------------------------------------------------------
+[debug] [2024-07-19T10:23:57.006Z] Command:       /usr/local/bin/firebase /Users/anshulverma/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting:github
+[debug] [2024-07-19T10:23:57.006Z] CLI Version:   13.13.3
+[debug] [2024-07-19T10:23:57.006Z] Platform:      darwin
+[debug] [2024-07-19T10:23:57.006Z] Node Version:  v18.5.0
+[debug] [2024-07-19T10:23:57.011Z] Time:          Fri Jul 19 2024 15:53:57 GMT+0530 (India Standard Time)
+[debug] [2024-07-19T10:23:57.011Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-19T10:23:57.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-19T10:23:57.120Z] > authorizing via signed-in user (anshulverma338@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/anshulverma/Desktop/All BitBucket Projects Anshul/Flutter Projects/PracticeProjects/gitFiles/demoFlutterWebPages
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-19T10:23:57.127Z] Using project from CLI flag: webdeployementflutterdemo
+[debug] [2024-07-19T10:23:57.131Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webdeployementflutterdemo [none]
+[debug] [2024-07-19T10:23:58.107Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webdeployementflutterdemo 200
+[debug] [2024-07-19T10:23:58.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webdeployementflutterdemo {"projectId":"webdeployementflutterdemo","projectNumber":"187394038948","displayName":"WebDeployementFlutterDemo","name":"projects/webdeployementflutterdemo","resources":{"hostingSite":"webdeployementflutterdemo"},"state":"ACTIVE","etag":"1_efe8a331-e007-4984-880c-616a80ceb54f"}
+[info] i  Using project webdeployementflutterdemo (WebDeployementFlutterDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /Users/anshulverma/Desktop/All BitBucket Projects Anshul/Flutter Projects/PracticeProjects/gitFiles/demoFlutterWebPages 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=907798099&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-07-19T10:23:59.539Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-07-19T10:23:59.542Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-07-19T10:24:00.006Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-07-19T10:24:00.008Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-07-19T10:24:00.032Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-07-19T10:24:00.456Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-07-19T10:24:00.456Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Anshulverma33","id":43145798,"node_id":"MDQ6VXNlcjQzMTQ1Nzk4","avatar_url":"https://avatars.githubusercontent.com/u/43145798?v=4","gravatar_id":"","url":"https://api.github.com/users/Anshulverma33","html_url":"https://github.com/Anshulverma33","followers_url":"https://api.github.com/users/Anshulverma33/followers","following_url":"https://api.github.com/users/Anshulverma33/following{/other_user}","gists_url":"https://api.github.com/users/Anshulverma33/gists{/gist_id}","starred_url":"https://api.github.com/users/Anshulverma33/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Anshulverma33/subscriptions","organizations_url":"https://api.github.com/users/Anshulverma33/orgs","repos_url":"https://api.github.com/users/Anshulverma33/repos","events_url":"https://api.github.com/users/Anshulverma33/events{/privacy}","received_events_url":"https://api.github.com/users/Anshulverma33/received_events","type":"User","site_admin":false,"name":"Anshul verma","company":"@BizBrollySolutions","blog":"","location":"Lives in- h. No. -98,kashi nagar lakhimpur kheri, up, 262701","email":"anshulverma338@gmail.com","hireable":true,"bio":" iOS developer ","twitter_username":null,"public_repos":7,"public_gists":0,"followers":1,"following":5,"created_at":"2018-09-10T16:03:06Z","updated_at":"2024-07-19T09:27:29Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":19006,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Anshulverma33 
+[info] 
+[debug] [2024-07-19T10:26:20.237Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:26:20.652Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 404
+[debug] [2024-07-19T10:26:20.653Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-07-19T10:45:10.321Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:45:10.834Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 404
+[debug] [2024-07-19T10:45:10.835Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-07-19T10:48:07.118Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:07.600Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:07.601Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:13.236Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:13.598Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:13.598Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:15.322Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:15.792Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:15.793Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:16.539Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:16.918Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:16.919Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:17.223Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:17.619Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:17.635Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:17.635Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:17.951Z] >>> [apiv2][query] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key type=owner
+[debug] [2024-07-19T10:48:17.980Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:17.983Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2024-07-19T10:48:18.345Z] <<< [apiv2][status] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key 401
+[debug] [2024-07-19T10:48:18.346Z] <<< [apiv2][body] GET https://api.github.com/repos/Anshulverma338/demoFlutterWebPages/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
